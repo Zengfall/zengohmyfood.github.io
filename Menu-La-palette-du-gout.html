@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Indique comment le navigateur doit afficher la page sur différents appareils mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./menu.css">
+    <title>Menu-La-palette-du-gout</title>
+    <!--Police-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=_Roboto_:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900_&_display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=_Shrikhand_&_display=swap" rel="stylesheet">
+     <!--Ajout icones-->
+     <script
+     src="https://kit.fontawesome.com/61e67503e4.js"
+     crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <!--Entête-->
+    <header>
+      <div id="header">
+        <!--Logo clicable -->
+        <div class="header__logo">
+          <div>
+            <!--Lien qui renvoie à l'accueil de la page-->
+            <a href="index.html"
+              ><img class="header__img"
+                id="logo"
+                src="./images/logo/ohmyfood.png"
+                alt=""></a>
+          </div>
+        </div>
+        <div class="header__btn">
+            <a href="index.html" class="bouton"><i class="header__icon fa-sharp fa-solid fa-arrow-left"></i></a>
+        </div>
+      </div>
+    </header>  
+  <main>
+    <div class="imagefond">
+    <img class="entreeImg" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+    </div>
+    <!--Menus à la carte-->
+    <section class="menu" id="La_palette_du_goût">
+      <div class="menu__header" id="entête">
+        <h1 class="menu__titre">La palette  du goût</h1>
+          <i class="menu__icon fa-regular fa-heart"></i>
+      </div>  
+    <div class="type"> 
+      <div class="sous_type" id="Entree">  
+          <p class="type__titre">ENTRÉES</p>     
+
+      <div class="typeitem delay-1">
+        <header class="typeitem__header">
+        <h4 class="typeitem__nom">Fricassée d'escargots</h4>
+        <p class="typeitem__carac">
+          Au piment d'Espelette 
+        </p>
+      </header>
+        <i class="typeitem__prix">25€</i>
+        <div class="typeitem__confirmation">
+          <div class="typeitem__checkIcon">
+            <i class="typeitem__icon fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="typeitem delay-2">
+        <header class="typeitem__header">
+        <h4 class="typeitem__nom">Foie gras de canrd mi-cuit</h4>
+        <p class="typeitem__carac">
+          Et ses copeaux de truffe noire
+        </p>
+      </header>
+        <i class="typeitem__prix">35€</i>
+        <div class="typeitem__confirmation">
+          <div class="typeitem__checkIcon">
+            <i class="typeitem__icon fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="typeitem delay-3">
+        <header class="typeitem__header">
+        <h4 class="typeitem__nom">Œuf au plat</h4>
+        <p class="typeitem__carac">
+         Assaisonné à la truffe sur lit de... 
+        </p>
+      </header>
+        <i class="typeitem__prix">20€</i>
+        <div class="typeitem__confirmation">
+          <div class="typeitem__checkIcon">
+            <i class="typeitem__icon fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--Plats-->
+        
+      <div class="sous_type" id="Plats"> 
+          <p class="type__titre" id="first-child">PLATS</p>
+          <div class="typeitem delay-4">
+            <header class="typeitem__header">
+            <h4 class="typeitem__nom">Filet de bœuf aux herbes</h4>
+            <p class="typeitem__carac">
+              Accompagné de sa ribambelle de légu... 
+            </p>
+          </header>
+            <i class="typeitem__prix">40€</i>
+            <div class="typeitem__confirmation">
+              <div class="typeitem__checkIcon">
+                <i class="typeitem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="typeitem delay-5">
+            <header class="typeitem__header">
+            <h4 class="typeitem__nom">Parmentier de queue de bœuf</h4>
+            <p class="typeitem__carac">
+              À la truffe noire sur sa purée de panais 
+            </p>
+          </header>
+            <i class="typeitem__prix">35€</i>
+            <div class="typeitem__confirmation">
+              <div class="typeitem__checkIcon">
+                <i class="typeitem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="typeitem delay-6">
+            <header class="typeitem__header">
+            <h4 class="typeitem__nom">Filet de turbo</h4>
+            <p class="typeitem__carac">
+              Aux agrumes 
+            </p>
+        </header>
+          <i class="typeitem__prix">44€</i>
+          <div class="typeitem__confirmation">
+            <div class="typeitem__checkIcon">
+              <i class="typeitem__icon fas fa-check"></i>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+          <!--Desserts-->
+          <div class="sous_type" id="--Desserts--">
+             
+          <p class="type__titre">DESSERTS</p>
+              
+
+              <div class="typeitem delay-7">
+                <header class="typeitem__header">
+                <h4 class="typeitem__nom">Paris-Brest</h4>
+                <p class="typeitem__carac">
+                  Revisité
+                </p>
+              </header>
+                <i class="typeitem__prix">18€</i>
+                <div class="typeitem__confirmation">
+                  <div class="typeitem__checkIcon">
+                    <i class="typeitem__icon fas fa-check"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="typeitem delay-8">
+                <header class="typeitem__header">
+                <h4 class="typeitem__nom">Macaron au chocolat d'exception</h4>
+                <p class="typeitem__carac">
+                  Et glace à la vanille de Madagascar 
+                </p>
+              </header>
+                <i class="typeitem__prix">22€</i>
+                <div class="typeitem__confirmation">
+                  <div class="typeitem__checkIcon">
+                    <i class="typeitem__icon fas fa-check"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="typeitem delay-9">
+                <header class="typeitem__header">
+                <h4 class="typeitem__nom">Mousse au chocolat </h4>
+                <p class="typeitem__carac">
+                  Au piment d'Espellette et à la truffe noire
+                </p>
+              </header>
+                <i class="typeitem__prix">23€</i>
+                <div class="typeitem__confirmation">
+                  <div class="typeitem__checkIcon">
+                    <i class="typeitem__icon fas fa-check"></i>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+     <!--Commande-->
+     <div class="btn">
+      <button class="Commander">Commander</button>
+    </div>
+  </section>
+  </main>
+  <!--Pieds de page-->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <span class="footer__logo">Ohmyfood</span>
+        <ul class="Items">
+          <li class="footer__items">
+            <a class="footer__liens" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
+          </li>
+          <li class="footer__items">
+            <a class="footer__liens" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir un partenaire</a>
+          </li>
+          <li class="footer__items">
+            <a class="footer__liens" href="#">Mentions légales</a>
+          </li>
+          <li class="footer__items">              
+              <a class="footer__liens" href="mailto:ohmyfood@outlook.fr?subject=Demande_d'informations">Contact</a>  
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
